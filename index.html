@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" />
+    <link rel="stylesheet" href="main.css">
+    <title>Devanshi Patoliya</title>
+</head>
+<body>
+    <div class="profile">      
+            <div class="dp">
+                <img src="Devanshi.jpeg" alt="Devanshi Patoliya">
+            </div>
+            <div class="basic-info">
+                <h1 class="name"><strong>Devanshi Patoliya</strong></h1>
+                <h4>Web Developer</h4>
+                <div class="buttons">
+                    <a href="resume.pdf">
+                        <button class="resume btn"><i class="fas fa-arrow-circle-down"></i> Resume</button>
+                    </a>
+                    <a href="#contact-form">
+                    <button class="contact btn">Contact Me</button></a>
+                </div>
+               
+            </div>
+        </div>
+        <div class="about-info">
+            <div class="left-para">
+                <h2 class="ab-hdng">About Me and Academic Honesty</h2>
+                <br>
+                <p class="about-data">
+                   I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.
+                </p>
+                <br>
+                <p class="date"> <strong>Date</strong>: <time>August 13, 2021</time> </p>
+                
+            </div>
+            <div class="right-para">
+                <h2>Basic Information</h2>
+                <table class="table">
+                    <tr>
+                        <td>Student ID</td>
+                        <td>:</td>
+                        <td>143882207</td>
+                    </tr>
+                    <tr>
+                      <td>AGE</td>
+                      <td>:</td>
+                      <td>19</td>
+                    </tr>
+                    <tr>
+                      <td>E-Mail</td>
+                      <td>:</td>
+                      <td>dpatoliya1@myseneca.ca</td>
+                    </tr>
+                    <tr>
+                        <td>Language</td>
+                        <td>:</td>
+                        <td>English, Hindi, Gujarati</td>
+                    </tr>
+                    <tr>
+                        <td>Class Section</td>
+                        <td>:</td>
+                        <td>ZAA</td>
+                    </tr>
+                    <tr>
+                        <td>Instructor</td>
+                        <td>:</td>
+                        <td>Muath Alzghool</td>
+                    </tr>
+                  </table>
+            </div>          
+        </div>
+        <div class="edu-info">
+            <h1>Education <br> <br> </h1>
+            <div class="pallets">
+                <div class="pallete1">
+                    <div class="left-p1">
+                        <div style="padding: 1em;"><h4>2020(Completed)</h4>
+                            
+                            <h3>Higher Secondary</h3>
+                            </div>
+                    </div>
+                    <div class="right-p1">
+                        <div>
+                            
+                            <div style="padding: 1em;">
+                                <h3>Higher-Secondary Education</h3>
+                                <h4>Seventh Day Adventish School</h4>
+                            </br>
+                        </br>
+                                
+                                    Under the supervision of <span>Dr. Eliahh David Srikakolli</span> 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="pallete2">
+                    <div class="left-p2">
+                        <div style="padding: 1em;"><h4>2021 - 2022 (Expected)</h4>
+                            
+                            <h3>Advanced Diploma</h3>
+                            </div>
+                    </div>
+                    <div class="right-p2">
+                        
+                            
+                            <div style="padding: 1em;">
+                                <h3>Advanced Diploma in Computer Programming and Analysis</h3>
+                                <h4>D.N. High School</h4>
+                            </br>
+                        </br>
+                                
+                                    Under the supervision of <span>Brian Bell</span> 
+                            </div>
+                            
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <main>
+        <div class="container">
+            <div class="header">
+                <h2 style="text-align: center;">Contact</h2>
+            </div>
+            <form id="contact-form" action="https://httpbin.org/post" method="POST">
+                <div class="row">
+                    <div class="col-6 ">
+                        <div class="form-group">
+                            <label for="">Enter Name</label>
+                            <input type="text" name="name" placeholder="Enter your Name" class="form-control" required/>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="">Email Address</label>
+                            <input type="email" name="email" placeholder="name@example.com" class="form-control" required/>
+                        </div>
+                    </div>
+                </div>
+               
+                        <div class="form-group">
+                            <label for="">Enter Address</label>
+                            <textarea name="address" rows="6" class="form-control" placeholder="Address" required></textarea>
+                        </div>
+                  
+                    
+                        <div class="form-group">
+                            <label for="">City</label>
+                            <input name="city" type="text" placeholder="Ex. Toronto" class="form-control" list="cities" required/>
+                            <datalist id="cities">
+                                <option value="Toronto">
+                                <option value="Montreal">
+                                <option value="Vancouver">
+                                <option value="Ottawa">
+                                <option value="Calgary">
+                                <option value ="Quebec"> 
+                              </datalist>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Postal Code</label>
+                            <input name="postalcode" type="text" placeholder="M1A 999" class="form-control" required/>
+                        </div>
+                    
+                
+               
+                        <div class="form-group mb-1">
+                            <label for="" class="mr-2 mb-75 font-size-sm">Type of message ?</label>
+                            <div class="form-radio-group">
+                                <div class="mr-2">
+                                    <input type="radio" name="type" id="type-1" value="question" checked required>
+                                    <label for="type-1">Question</label>
+                                </div>
+                                <div class="mr-2">
+                                    <input type="radio" name="type" id="type-2" value="comment" required>
+                                    <label for="type-2">Comment</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="type" id="type-3" value="hiring" required>
+                                    <label for="type-3">Hiring</label>
+                                </div>
+                        
+                    </div>
+                    <div style="display: none;" id="rate-container">
+                        <div class="form-group">
+                            <label for="">Hourly Rate</label>
+                            <input name="rate" type="number" placeholder="99" class="form-control" min="0" id="rate-input"/>
+                        </div>
+                    </div>
+                </div>
+                
+                        <div class="form-group">
+                            <label for="">Enter Message</label>
+                            <textarea name="message" rows="5" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                   
+                
+                    <button type="submit" style="margin-left: 210px;">
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+                
+                <br>
+                <br>
+            </form>
+        </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+    <script src="form.js"></script>
+</body>
+</html>
